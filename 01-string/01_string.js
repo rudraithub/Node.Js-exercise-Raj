@@ -6,7 +6,6 @@
 // console.log(length)
 
 
-
 // ## 0103-join a string - Write a program to join two string.
 // let name1 = "hello";
 // let name2 = "world";
@@ -25,7 +24,7 @@
 // # 0106 - write a program to print individual characters of a string in reverse order.
 // let element = "Rudra";
 // let reversedString =
-//     console.log(element.split('').reverse().join(""))
+// console.log(element.split('').reverse().join(""))
 
 // ## 0107 - write a program to count the total number of words in a string.
 // let word = "This is rudra IT hub";
