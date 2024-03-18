@@ -1,0 +1,9 @@
+ubuntu :- node.js insatll
+step :-1  sudo apt install curl gnupg2
+step :-2  sudo apt install curl gnupg2
+step :-3  sudo apt install -y nodejs 
+step :-4. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+step :-5. nvm install 20.11
+step :-6. node -v
+
+
