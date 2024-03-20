@@ -23,7 +23,7 @@ domain : domain is the user frendly and ip addressof my server
 
 nodejs.code=>js.code souce=> v8 engin=> parsing=>ast(abtract syntax tree)=>bytecodes=>machine code => run on your CPU     
 
-======>"what is rendering ?
+==============>"what is rendering ?  <============
 
 website is get data then we are going http =>dom=>css=>csdom => render tree=> layout => ui backned => paint then output will be show in diplay
 
@@ -33,7 +33,7 @@ jyare koi bhi website joiye tyare te j time par rendering thai chhhe.
 
 
 
-
+=======>>>>>>>>>>>><<<<<<<<<<<<<<<<<==========
 PUNYCODE:- 
 
 Internationalized Domain Names (IDNs)

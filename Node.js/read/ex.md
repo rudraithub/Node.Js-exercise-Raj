@@ -1,19 +1,19 @@
-node vs express :- the node is main thing and express.js is make to server and how to server is react.expess HELP to react the server.
+# node vs express :- the node is main thing and express.js is make to server and how to server is react.expess HELP to react the server.
 
 
-node.js  siganl threded chhe to non -blocking su kam use thai chhe?
+# node.js  siganl threded chhe to non -blocking su kam use thai chhe?
 --> beacasue node.js event loop no use kare chhe.condtion hoy chhe contionly run hota jab tak task complete na ho tab tak.then toi task nai hoy tyare exist thai main threded close thai jase and resorce ne relese kari deise. teni responsibility hoy chhe ke os ne dispatch and worker ne dipatch karva chhe or tamari bija pending funcation playio or aysnc
 
-event driven: - any action performing like whatapp in any people chat and this people tyeping is see to other people it's called event driven. jyare pn action peform thai tyare temathi respons nikalvo tene event-driven kahevai chhe.
+# event driven: - any action performing like whatapp in any people chat and this people tyeping is see to other people it's called event driven. jyare pn action peform thai tyare temathi respons nikalvo tene event-driven kahevai chhe.
 
 
-what is express.js :- packeage, rothing, middleware 
+# what is express.js :- packeage, rothing, middleware 
 easy and short code to creat server and other.
 
-why express?
+# why express?
 => http is very difficult to use, express make thai eaiser.
 
-what is routing:- ruote banavani process ne routing kahevai chhe.
+# what is routing:- ruote banavani process ne routing kahevai chhe.
 example like :- /profile, /about us, /contact
 
 middleware : it is first use for run program and then other is use. 
@@ -39,7 +39,7 @@ templet engine:- template engine is short name is ejs,pun,handlebar..etc. it's a
 => jo ek markup style jo ki baad me convert ho jayegi html me.
 => html me chnage nai kar sakate and ejs dynamicl chnage kar sakate ho.
 
-= = > ejs setup < = =
+# = = > ejs setup < = =
 
 1. ejs install
 .npm i ejs
@@ -54,7 +54,7 @@ app.set("view engine","ejs")
 5. send ki jagah render karo:- render karate samay make sure dhayn rakhe k ap view ke inder ki file ka hi name likhe and render funcation me .ejs na likhe.         
 
 
-DYNAMIC ROUT :- JO BHI URL ME EK HISSA BAAR BAAR CHNAGE HOTA AND EK HISSA SAME HI RAHETA HE USE LIYE AAP DYMANIC ROUT BANAIYE.
+# DYNAMIC ROUT :- JO BHI URL ME EK HISSA BAAR BAAR CHNAGE HOTA AND EK HISSA SAME HI RAHETA HE USE LIYE AAP DYMANIC ROUT BANAIYE.
 
 static file:- image, stylesheets and fontEnd ne set karavu it's called static file.
 => create the folder in the views folder image, stylesheets, frontend.
@@ -63,11 +63,11 @@ http-method -get, post:-
 
 error handling
 
-==> Express generator <== 
+# ==> Express generator <== 
 je pela apane folder strature banavata hata and ani inder folder banav hata te banava ni jarur nai pade.
 RESONE FOR THAT Express gen. khud folder banavi dei chhe and teni file and html code and totaly is create it's called Express gen...
 
-==> step:---
+# ==> step:---
 
 npm i express-generator -g
 
@@ -84,15 +84,15 @@ open it on vs code
 
 
 
-==?how to stop the port?==
+# how to stop the port?
  
-=====step:-------
+=====step:
 sudo lsof -i :3000
 sudo kill [PID]
 
 
 
-==> mongodb <== 
+# ==> mongodb 
 
 database is a store the value and some informations it's called database.
 
@@ -119,7 +119,7 @@ ek app mein variety of data hota hai par pura data hota hei data ka hi hai, par 
 
 colllections matalab ki bole to ek user ka ka data,ek user par baat kare to hua document.
 
-mongodb SETUP :- 
+# mongodb SETUP :- 
 
 1. install mongodb
 
@@ -132,7 +132,7 @@ mongodb SETUP :-
 5. create model and export
 
 
-==> run :- strat mongosh <==
+# ==> run :- strat mongosh 
 
 create new db = user(name)
 
@@ -157,7 +157,7 @@ db.admindata.insertMany([{name:"raj",language:"javascript",active:true},{name:"d
 ==> delete: db.admindata.delete({language : "FULLSTACK"})
             db.admindata.delete({})
    
-===>How to Install MongoDB Compass on Ubuntu 22.04 LTS
+# ===>How to Install MongoDB Compass on Ubuntu 22.04 LTS
 
 1.wget https://downloads.mongodb.com/compass/mongodb-compass_1.30.1_amd64.deb
 
@@ -174,7 +174,7 @@ server par hota he session and use for save the data in backend means server per
 
 
 
-============> jwt <============
+# ============> jwt 
 
 ==>hmac:hash meassage authentication code
 ==>web token,jsonwebtoken:-javascript object notation web-token authentication one type of data tracker for user login and all the activity to store the database.secure data transmit JSON format.je pn kam thai te server ni secreat key ni sathe thai chhe.
@@ -193,7 +193,7 @@ jab request moakiye tyare te header jase tya thi server pase jase tya te pyload 
 jwt jyare pn use karo tyare encytion toke hovu joiye.
 
 
-===> COOKIES<=====
+# ===> COOKIES<=====
 
 cookies setup 
 res.cookie("name",value)
@@ -215,18 +215,17 @@ Flash msg he allow karata he ki app ek file abanaya huva route me jo bhi data he
 
 APP CONNECT FLASH KO USE NAHI KAR SKTE BINA EXPRESS SESSION	
 
-===>"session is the store the data form the backend.<=====
+# ===>"session is the store the data form the backend.
 
+# Authentication And Authoraition:-
 
-Authentication And Authoraition:-
-
-step:-
+# step:-
 1. install these packages:- npm i passport,passport-local,passport-local-mongoose,mongoose,express-session
 2. write app.js code frist in app.js file and write it after view engine and before logger
 3. setup users.js properly.
 4. in index.js try register first and other code as well
 
-=====> DATA ASSOCIATE <====
+# ==> DATA ASSOCIATE 
 
 EK model se doosre model ke data ko jod dena id ke through,matalab ek user post banayega hi, jab poist banayega to o user dawaara banyega,to hum kya karate hai jab do aise data apas me closely related hote hai hum dono ko jod dete he, ki ek model ki bani id ko dusare model ke data se dedete hai aur is model ke data ki id pichhle model ke data ko dedete hai.
 User validation failed: posts.0: Cast to [ObjectId] failed for value "[ 2 ]" (type string) at path "posts.0" because of "CastError"
@@ -237,7 +236,8 @@ LIKE TO SWAP THE ID USER ID ==> POST.
 POST ==> USER ID.	
 
 
-========> PINTEREST <=======
+# ===> PINTEREST
+	
 Passport-Local-Mongoose Plugin: It applies the passport-local-mongoose plugin to the schema. This plugin simplifies building username and password login with Passport.js for Mongoose models.
 
 talwilindcss
@@ -255,7 +255,10 @@ Usage: In the provided code, userModel.register(userData, req.body.password) is 
 
 Error Handling: If an error occurs during the registration process (e.g., if the username or email is already in use), the promise is rejected, and the .catch block is executed to handle the error. In the error handling block, an error message is logged to the console, and a flash message is stored using req.flash to indicate the registration error. Finally, the user is redirected back to the homepage ("/") to display the error message or handle the error further.
 
+## what is different between operational error and programming error.
 
+==> operational error is run time error.programming error is a complier time error.
+==> Programmer errors occur when mistakes are made during the development process.These errors can be caused by a lack of understanding of the programming language or platform being used, a lack of attention to detail, or a lack of testing. 
 
 
 
