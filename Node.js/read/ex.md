@@ -174,7 +174,7 @@ server par hota he session and use for save the data in backend means server per
 
 
 
-# ============> jwt 
+# =====> jwt 
 
 ==>hmac:hash meassage authentication code
 ==>web token,jsonwebtoken:-javascript object notation web-token authentication one type of data tracker for user login and all the activity to store the database.secure data transmit JSON format.je pn kam thai te server ni secreat key ni sathe thai chhe.
