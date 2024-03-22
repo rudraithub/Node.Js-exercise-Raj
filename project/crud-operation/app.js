@@ -117,16 +117,6 @@ createDocument();
 
 
 
-
-//===> read operations to coonect mongoose:-------
-// const getDocument = async () => {
-//     const result = await Playlist.find()
-//     console.log(result)
-// }
-
-// getDocument()
-
-
 // comparetor opreator 
 
 //====>    greater then query:-------
@@ -140,7 +130,9 @@ createDocument();
 
 // getDocument()
 
-// ===> this code is get match data adn $in opeartor is use:--------
+
+
+// ===> this code is get match data and $in opeartor is use:--------
 
 // const getDocument = async () => {
 //     const result = await Playlist
